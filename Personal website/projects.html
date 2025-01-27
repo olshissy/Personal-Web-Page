@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Showcasing a collection of projects I've worked on, including software, websites, and other notable works.">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f7f5f2;
+      color: #333;
+      line-height: 1.6;
+      padding: 0 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 0;
+      background: #ffffff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #444;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #d14e52;
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .project-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .project-card .content {
+      padding: 1rem;
+    }
+
+    .project-card h3 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-card p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+
+    .project-card a {
+      color: #d14e52;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+
+    .project-card a:hover {
+      color: #f3a683;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    .return-btn {
+      display: block;
+      text-align: center;
+      margin: 2rem auto;
+      background: #d14e52;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0.8rem 2rem;
+      border-radius: 25px;
+      box-shadow: 0 5px 15px rgba(209, 78, 82, 0.3);
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .return-btn:hover {
+      background: #f3a683;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+    <p>Here are some of the projects I've worked on, ranging from web development to software engineering. Feel free to explore them!</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="projects">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <div class="content">
+            <h3>University work</h3>
+            <p>This repository contains a collection of university projects showcasing various algorithms, data structures, and software implementations. Each project highlights my coding skills and problem-solving abilities, with accompanying documentation for better understanding and review.</p>
+            <a href="https://github.com/olshissy/University-Work" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <div class="content">
+            <h3>Task Management application</h3>
+            <p></p>
+            <a href="https://github.com/oliverhiscoke/pattern-matching" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <div class="content">
+            <h3>Data Analysis</h3>
+            <p></p>
+            <a href="https://github.com/oliverhiscoke/rsa-encryption" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="project-card">
+          <div class="content">
+            <h3>Weather Application</h3>
+            <p></p>
+            <a href="https://github.com/oliverhiscoke/lz77-compression" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+            <div class="content">
+              <h3>Web Scraping Tool</h3>
+              <p></p>
+              <a href="https://github.com/oliverhiscoke/lz77-compression" target="_blank">View Project</a>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <a href="index.html" class="return-btn">Return</a>
+  </div>
+
+  
+
+  <footer>
+    &copy; 2025 Oliver Hiscoke. All rights reserved.
+  </footer>
+</body>
+</html>

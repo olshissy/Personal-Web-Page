@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about me - my background, skills, and interests.">
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f7f5f2; /* Neutral background */
+      color: #333;
+      line-height: 1.6;
+      padding: 0 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 0;
+      background: #ffffff; /* Light card-like header */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #444;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+      background: #fff; /* Light card background */
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #d14e52; /* Matching warm accent color */
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    /* Skill Section Styling */
+    .skills {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 1rem;
+    }
+
+    .skills h3 {
+      font-size: 1.5rem;
+      color: #444;
+      margin-top: 1rem;
+    }
+
+    .skill {
+      background: linear-gradient(135deg, #d14e52, #f3a683);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: 0 5px 15px rgba(209, 78, 82, 0.3);
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    .return-btn {
+      display: block;
+      text-align: center;
+      margin: 2rem auto;
+      background: #d14e52;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0.8rem 2rem;
+      border-radius: 25px;
+      box-shadow: 0 5px 15px rgba(209, 78, 82, 0.3);
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .return-btn:hover {
+      background: #f3a683;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+    <p>Get to know more about my background, skills, and interests.</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Who I Am</h2>
+      <p>
+        I’m a Computer Science graduate with a passion for all things technology. From building elegant websites to diving deep into algorithms, I thrive on solving complex problems and creating meaningful digital experiences. 
+      </p>
+      <p>
+        My love for technology goes beyond coding—I enjoy exploring emerging trends, tinkering with new tools, and staying at the forefront of innovation. Whether it’s developing software, understanding the intricacies of AI, or automating workflows, I’m always eager to learn and grow.
+      </p>
+      <p>
+        In addition to my technical skills, I believe in the power of collaboration and creativity to make a real impact. 
+      </p>
+    </section>
+
+    <section>
+      <h2>My Skills</h2>
+      <p>
+        Throughout my journey as a Computer Science graduate, I've developed a wide range of technical and professional skills that enable me to excel in various aspects of technology and innovation:
+      </p>
+      <div class="skills">
+        <!-- Programming Languages -->
+        <h3>Programming Languages</h3>
+        <div>
+          <span class="skill">Python</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">Java</span>
+          <span class="skill">C</span>
+          <span class="skill">SQL</span>
+          <span class="skill">TypeScript</span>
+        </div>
+    
+        <!-- Web Development -->
+        <h3>Web Development</h3>
+        <div>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">React</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">Next.js</span>
+          <span class="skill">Material-UI (MUI)</span>
+        </div>
+        
+        <!-- Cloud and DevOps -->
+        <h3>Cloud & DevOps</h3>
+        <div>
+          <span class="skill">Firebase</span>
+          <span class="skill">AWS</span>
+          <span class="skill">Docker</span>
+          <span class="skill">CI/CD Pipelines</span>
+          <span class="skill">Git/GitHub</span>
+        </div>
+    
+        <!-- Software Development -->
+        <h3>Software Development</h3>
+        <div>
+          <span class="skill">Agile Methodology</span>
+          <span class="skill">Version Control</span>
+          <span class="skill">Object-Oriented Programming (OOP)</span>
+          <span class="skill">Debugging & Testing</span>
+        </div>
+    
+        <!-- Soft Skills -->
+        <h3>Soft Skills</h3>
+        <div>
+          <span class="skill">Problem-Solving</span>
+          <span class="skill">Team Collaboration</span>
+          <span class="skill">Time Management</span>
+          <span class="skill">Adaptability</span>
+          <span class="skill">Communication</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What I Love</h2>
+      <p>
+        Beyond my passion for technology, I’m someone who loves finding balance and joy in other areas of life. Here are some things I truly enjoy:
+      </p>
+      <div class="loves">
+        <h3>Exploring Technology</h3>
+        <p>
+          I’m constantly amazed by how technology shapes the world around us. Whether it’s staying up-to-date with the latest advancements, experimenting with new tools, or building innovative projects, technology is at the heart of what I love to do.
+        </p>
+        
+        <h3>Playing Golf for My Home Club</h3>
+        <p>
+          When I’m not in front of a computer, you’ll often find me on the golf course, playing for my home club. Golf has taught me the value of patience, precision, and continuous improvement—skills that resonate strongly with my professional and personal life. Plus, there’s nothing better than a beautiful day on the greens!
+        </p>
+        
+        <h3>Learning and Growing</h3>
+        <p>
+          I have a deep curiosity for learning. Whether it’s picking up a new programming language, understanding emerging tech trends, or reading a great book, I’m always looking for ways to expand my horizons.
+        </p>
+    </section>
+
+    <a href="index.html" class="return-btn">Return</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Oliver Hiscoke. All rights reserved.
+  </footer>
+</body>
+</html>
